@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blueviolet;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.game-zone{
+    background-color: lightblue;
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.game-zone div{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px black solid;
+    border-right: 2px black solid;
+    border-radius: 2px;
+}
